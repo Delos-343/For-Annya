@@ -1,11 +1,10 @@
 import React from 'react'
+import { HelloWorld } from '../components'
 
 const HomePage = () => {
   return (
     <div>
-        <h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
+        <HelloWorld />
     </div>
   )
 }
